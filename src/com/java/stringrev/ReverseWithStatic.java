@@ -9,15 +9,21 @@ package com.java.stringrev;
 import java.util.Scanner;
 
 public class ReverseWithStatic {
+	
+	static String reverse(String str) {
+		
+	}
+	
+	
 	public static void main(String[] args) {
 		
-		String orgStr, revStr; 
-		
 		Scanner sc=new Scanner(System.in);  
-		System.out.print("Enter a String: ");  
-		orgStr = sc.nextLine();
+		System.out.print("Enter a String: "); 
+		String orgStr = sc.nextLine();
+		
+		System.out.println("Reverse String  is : "+rev.reverse(s)); //calling method  
 
 		
 
-		}
 	}
+}

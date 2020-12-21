@@ -13,10 +13,17 @@ public class ReverseWithWhile {
 		String orgStr, revStr; 
 		
 		Scanner sc=new Scanner(System.in);  
-		System.out.print("Enter a String: ");  
+		System.out.print("Enter your String: ");  
 		orgStr = sc.nextLine();
-
 		
-
+		int i=orgStr.length();
+		
+		System.out.print("Reversed String: ");
+		//while loop  
+		while(i>0){  
+			System.out.print(orgStr.charAt(i-1));   
+			i--;  
+		}
+		sc.close();
 	}
 }
